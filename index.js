@@ -12,6 +12,8 @@ const btnRollDice = document.querySelector('.btn--roll');
 const btnHoldScore = document.querySelector('.btn--hold');
 const winnerSound = document.getElementById('winnerSound'); 
 
+let scores, currentScore, activePlayer, playing;
+
 const init = function () {
     scores = [0, 0];
     currentScore = 0;
